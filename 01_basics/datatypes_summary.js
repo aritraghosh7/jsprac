@@ -37,3 +37,15 @@ const myFunction= function(){
 console.log(typeof myFunction);//function
 console.log(typeof heros);//object
 
+
+
+
+// ++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+
+let myName = "Aritra"
+
+let anotherName = myName
+console.log(anotherName)
