@@ -49,3 +49,15 @@ let myName = "Aritra"
 
 let anotherName = myName
 console.log(anotherName)
+
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "aritra@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email);
